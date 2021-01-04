@@ -25,3 +25,7 @@ let sum2 = (n) =>{
 // - Faster?
 // - Less memory-intensive?
 // - More readable? 
+
+//Sum2 is faster
+//Counting operations- sum2 has only 3 operations. Sum can have 2n or 5n + 2 operations. Number of operations grow with the size of n.
+
