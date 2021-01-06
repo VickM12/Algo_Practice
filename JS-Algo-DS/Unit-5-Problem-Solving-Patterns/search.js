@@ -1,4 +1,9 @@
-// Naive way:
+// Example
+// Given a SORTED array of integers, write a function called "search" that accepts a value and returns the index where the value passed to the function is located. If the value is not found, return -1. 
+
+//============================
+//        Naive way:
+//============================
 let search = (arr, n) =>{
   for (let i = 0; i < arr.length; i++){
     if (arr[i] == n){
@@ -8,8 +13,10 @@ let search = (arr, n) =>{
   return -1
 }
 
-// Binary Search:
 
+//============================
+//      Binary Search:
+//============================
 let search2 = (arr, val) => {
   let min = 0;
   let max= arr.length -1;
@@ -30,4 +37,4 @@ let search2 = (arr, val) => {
   return -1
 }
 
-console.log(search2([1,2,3,4,5,6,7] , 2))
+console.log(search2([1,2,3,4,5,6,7] , 2)) // Result: 1

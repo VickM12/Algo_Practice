@@ -1,5 +1,5 @@
+//Frequency Counter
 //Naive Solution:
-
 function same(arr1, arr2){
   if(arr1.length !== arr2.length){
     return false;
@@ -13,8 +13,6 @@ function same(arr1, arr2){
   }
   return true
 }
-
-// console.log(same([1, 2, 3, 2], [9, 1, 4, 4]))
 
 //Refactored O(N)
 function same2(arr1, arr2){
