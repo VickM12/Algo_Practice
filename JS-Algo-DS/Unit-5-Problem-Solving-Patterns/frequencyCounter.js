@@ -16,16 +16,18 @@ function same(arr1, arr2){
 
 // console.log(same([1, 2, 3, 2], [9, 1, 4, 4]))
 
-//Refactored
+//Refactored O(N)
 function same2(arr1, arr2){
   if(arr1.length !== arr2.length){
       return false;
   }
   let frequencyCounter1 = {}
   let frequencyCounter2 = {}
+  // First Loop
   for(let val of arr1){
       frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1
   }
+  // Second Loop- BUT NOT NESTED
   for(let val of arr2){
       frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1        
   }
