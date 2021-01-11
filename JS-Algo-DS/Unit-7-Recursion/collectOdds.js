@@ -1,3 +1,4 @@
+//Recursion with Helper function
 function collectOddValues(arr){
   let result = []
   function helper(helperInput){
@@ -15,6 +16,7 @@ function collectOddValues(arr){
 
 console.log(collectOddValues([1, 2, 3, 4, 5]))
 
+//Purely Recursive
 function collectOdds(arr){
   let newArr = [];
   if(arr.length ===0){
