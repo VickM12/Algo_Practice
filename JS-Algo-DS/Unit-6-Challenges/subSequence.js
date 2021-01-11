@@ -11,4 +11,4 @@ let isSubSequence = (str1, str2)=>{
   return false
 }
 
-console.log(isSubSequence("Hello", "Hello World"))
+console.log(isSubSequence("Hello", "Hello World")) //true
