@@ -12,8 +12,10 @@ Write a function that accepts an array of values and a value. Loop through the a
 
 const linearSearch = (arr, val)=>{
   for(let i = 0; i < arr.length; i++){
-    if (arr[i] !== val){
-      return -1
-    }else {return arr[i]
+    console.log(i, arr[i])
+    if (arr[i] === val){
+      return i
+    }
   }
+  return -1
 }
