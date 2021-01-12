@@ -10,7 +10,7 @@ Imaging we have an array of U.S. states. How would we find a specific state? The
 ### Example
 Write a function that accepts an array of values and a value. Loop through the array and check if the value is in the array. IF it is, return the index, if not, return -1.
 
-const linearSearch = (arr, val)=>{
+```const linearSearch = (arr, val)=>{
   for(let i = 0; i < arr.length; i++){
     console.log(i, arr[i])
     if (arr[i] === val){
@@ -19,3 +19,9 @@ const linearSearch = (arr, val)=>{
   }
   return -1
 }
+```
+
+## Big O
+Best Case: O(1)- By miracle the data you're looking for is the first item. 
+worst Case: O(N)
+Average: O(N)
