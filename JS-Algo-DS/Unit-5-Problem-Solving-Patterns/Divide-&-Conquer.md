@@ -9,6 +9,7 @@ Given a SORTED array of integers, write a function called "search" that accepts 
 search([1,2,3,4,5,6], 4) --> index 3
 
 ### Naive way O(N):
+```js
 let search = (arr, n) =>{
   for (let i = 0; i < arr.length; i++){
     if (arr[i] == n){
@@ -17,9 +18,10 @@ let search = (arr, n) =>{
   }
   return -1
 }
-
+```
 ### Binary Search O(log(N)):
 
+```js
 let search = (arr, val) => {
   let min = 0;
   let max= arr.length -1;
@@ -39,3 +41,4 @@ let search = (arr, val) => {
   }
   return -1
 }
+```

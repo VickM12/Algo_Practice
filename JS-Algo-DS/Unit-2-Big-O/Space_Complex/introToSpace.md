@@ -10,6 +10,7 @@ Auxiliary space complexity- Space required by to the algorithm, not including th
 ### 3. Reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects).
 
 ## Example of space
+```js
 function sum(arr) {
   let total = 0;
   for (let i = 0; i < arr.length; i++){
@@ -17,6 +18,7 @@ function sum(arr) {
   }
   return total
 }
+```
 
 - Total is one number, and i is another number
 - O(1) space because it only has two constants

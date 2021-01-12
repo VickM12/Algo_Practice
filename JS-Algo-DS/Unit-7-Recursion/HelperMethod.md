@@ -3,7 +3,8 @@
 - Two functions:
   - Main outer function
   - Inside outer, is a recursive "inner" function that calls itself
- ```function collectOddValues(arr){
+ ```js
+ function collectOddValues(arr){
     let result = []
     function helper(helperInput){
       if(helperInput.length === 0){
@@ -16,4 +17,5 @@
     }
     helper(arr)
     return result;
-}```
+}
+```

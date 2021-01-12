@@ -17,7 +17,7 @@
 
 ## Example
 Write a function that takes a string, and counts each character
-
+```js
 charCount("Your PIN is 1234")
 
 function charCount(str){
@@ -34,3 +34,4 @@ for (var i = 0; i < str.length: i++){
   }
   return result;
 }
+```

@@ -20,10 +20,10 @@
 
 ## Example:
 Write a function which takes in a string and returns counts of each character in the string.
-
-charCount('aaaa')--> {a:4}
-charCount('Hello') --> {h:1, e:1, l:2, o:1}
-
+```js
+charCount('aaaa')// result {a:4}
+charCount('Hello') //Result: {h:1, e:1, l:2, o:1}
+```
 input: "My phone number is 334-546-9876"
 input: "Hello hi"
 

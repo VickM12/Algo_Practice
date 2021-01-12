@@ -26,7 +26,8 @@ Invoke the same function with a different input until you reach your base case!
 - The value that gets fed back into the function when it is called again
 
 ## Example
-```let countDown = (num) => {
+```js
+let countDown = (num) => {
   if(num <= 0 ) {
     console.log("All Done!");
     return;
@@ -34,4 +35,5 @@ Invoke the same function with a different input until you reach your base case!
   console.log(num);
   num--;
   countDown(num)
-}```
+}
+```

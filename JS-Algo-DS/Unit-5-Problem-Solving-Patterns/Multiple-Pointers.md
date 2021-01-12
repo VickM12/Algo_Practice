@@ -14,6 +14,7 @@ sumZero([-2, -1, 0, 1, 3]) -- undefined
 ### Naive way- O(N^2)
 This function uses a nested loop with pointer j that gets compared to pointer i before i progresses 
 
+```js
 let sumZero = (arr) => {
   for (let i = 0; i < arr.length; i++){
     for(let j = i+1; j <arr.length; j++){
@@ -23,12 +24,14 @@ let sumZero = (arr) => {
     }
   }
 }
+```
 
 
 
 ### Refactor time complex O(N), space O(1)
 This function uses two pointers, one at each end of the array that meet in the middle
 
+```js
 let sumZero2 = (arr)=> {
   let left = 0;
   let right = arr.length - 1;
@@ -43,13 +46,14 @@ let sumZero2 = (arr)=> {
     }
   } 
 }
-
 console.log(sumZero2([-3, -2, 0, 1, 2]))
+```
 
 ## Example 2- Lookforward Left to Right
 Write a function called countUniqueValues, which accepts a sorted array and counts the unique values in the array. There can be negative numbers in the array, but it will always be sorted.
 
+```
 countUniqueValues([1, 1, 1, 1, 1, 2]) --> 2
 countUniqueValues([1, 2, 3, 4, 4, 4, 7, 7, 12, 12, 13]) --> 7
 countUniqueValues([]) --> 0
-
+```

@@ -24,8 +24,10 @@
     - hasOwnProperty- O(1)
 ### Arrays
   - Examples
+    ```js
     let names= ["Michale", "Melissa", "Andrea"]
     let values = [true, {}, [], 2, "awesome"]
+    ```
   - Use when you need order
   - When you need fast access/insertion and removal
   - Big O

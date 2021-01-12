@@ -7,9 +7,10 @@ Very useful for keeping track of a subset of data in an array/string etc.
 
 ## Example
 Write a function called maxSubarraySum which accepts an array of integers and a number called 'n'. The function should calculate the maximum sum of n consecutive elements in an array.
+```js
+maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2) //Result: 10
+maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 4)//Result: 17
 
-maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2) --> 10
-maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 4) --> 17
 
 let maxSubarraySum = (arr, n) =>{
   if (n > arr.length){
@@ -27,3 +28,4 @@ let maxSubarraySum = (arr, n) =>{
   }
   return max
 }
+```
