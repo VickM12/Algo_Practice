@@ -29,3 +29,5 @@ const swap = (arr, idx1, idx2) => {
 - start an inner loop with var j from the beginning, i - 1
 - If arr[j] is > arr[j+1], swap those two values!
 - Return the sorted array
+
+## Implementation
