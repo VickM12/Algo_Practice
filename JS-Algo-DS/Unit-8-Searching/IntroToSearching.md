@@ -1,5 +1,6 @@
 # Searching Algorithms
 Not quite like Google
+
 ## Objectives
 - Describe what a searching algo is
 - Implement a linear search on arrays

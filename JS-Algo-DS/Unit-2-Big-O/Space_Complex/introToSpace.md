@@ -22,7 +22,7 @@ function sum(arr) {
 
 - Total is one number, and i is another number
 - O(1) space because it only has two constants
-
+```js
 function double(arr){
   let newArr = [];
   for (let i = 0; i < arr.length; i++){
@@ -30,6 +30,7 @@ function double(arr){
   }
   return newArr
 }
+```
 - newARR returns n numbers
 - O(n)
 
