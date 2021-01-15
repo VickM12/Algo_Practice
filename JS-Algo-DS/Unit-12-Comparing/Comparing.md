@@ -34,3 +34,9 @@
 <p> Sometimes called "Quadratic Algorithms"</p>
 <p>Bubble and Insertion really only good for nearly sorted arrays</p>
 </article>
+
+## Recap
+- Sorting is FUN-damental
+- Bubble sort, selection sort, and insertion sort are all roughly equivalent
+- All have average time complexities that are quadratic
+- We can do better...but we need more complex algorithms!
