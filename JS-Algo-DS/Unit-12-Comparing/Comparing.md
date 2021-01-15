@@ -33,4 +33,4 @@
 <article>
 <p> Sometimes called "Quadratic Algorithms"</p>
 <p>Bubble and Insertion really only good for nearly sorted arrays</p>
-</articl>
+</article>
