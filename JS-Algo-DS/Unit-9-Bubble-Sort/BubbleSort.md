@@ -30,4 +30,4 @@ const swap = (arr, idx1, idx2) => {
 - If arr[j] is > arr[j+1], swap those two values!
 - Return the sorted array
 
-## Implementation
+

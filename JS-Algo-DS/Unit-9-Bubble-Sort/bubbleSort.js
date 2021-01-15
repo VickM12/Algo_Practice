@@ -16,6 +16,7 @@ const bubbleSort = (arr)=>{
 
 // console.log(bubbleSort([2, 3, 69, 10, 43, 56, 100, 24]))
 
+//Slightly optimized way that breaks the pass if no swaps were made
 const optBubbleSort = (arr)=> {
   let noSwaps;
   for (let i = arr.length; i >0; i--){
