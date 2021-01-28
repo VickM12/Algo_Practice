@@ -14,4 +14,12 @@
 
 <p>Then it reforms the list based on the number order in teh buckets, then groups based on the digit in the tens position, and repeat, making its way through to the furthest left number. 
 
-
+## Radix Peudocode
+- Define a function that accepts a list of numbers
+- Figure out how many digits the largest number has
+- Loop from k = 0 up to this largest number of digits
+- For each iteration of the loop:
+  - Create buckets (arrays) for each digit (0 to 9)
+  - Place each numer in the corresponding bucket based on its kth digit
+- Replace our existing array with values in our buckets, starting with 0 and going up to 9
+- Return the list at the end!
