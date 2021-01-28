@@ -23,3 +23,22 @@
   - Place each numer in the corresponding bucket based on its kth digit
 - Replace our existing array with values in our buckets, starting with 0 and going up to 9
 - Return the list at the end!
+
+## Big O Radix Sort
+<table>
+  <tr>
+    <th>Time Complexity</br>
+        (Best)</th>
+    <th> Time Complexity</br>
+          (Average)</th>
+    <th>Time Complexity</br>
+        (Worst)</th>
+    <th>Space Complexity</th>
+  </tr>
+  <tr>
+    <th>O(nk)</th>
+    <th>O(nk)</th>
+    <th>O(nk)</th>
+    <th>O(n + k)</th>
+  </tr>
+</table>
